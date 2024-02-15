@@ -1,1 +1,24 @@
-<p>tweet works!</p>
+<div class="w-[650px] bg-white rounded-lg shadow p-6 mb-8">
+    <div class="flex justify-center w-full">
+
+        <!-- avatar circle -->
+        <app-avatar />
+        <!-- message -->
+        <div class="flex-1">
+            <textarea class="mb-2 bg-gray-200 
+            focus:outline-none 
+            focus:shadow-outline 
+            focus:bg-gray-100 
+            border-transparent
+            rounded-lg
+            py-2
+            px-4
+            block w-full
+            font-light
+            placeholder-gray-700
+            appearance-none
+            leading-normal
+            resize-none " rows="3">{{TweetMessage}}</textarea>
+        </div>
+    </div>
+</div>
